@@ -22,6 +22,9 @@
 		613E46232A13803600656DA4 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613E46212A13803600656DA4 /* LoginViewController.xib */; };
 		613E46262A13828C00656DA4 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E46242A13828C00656DA4 /* HomePage.swift */; };
 		613E46272A13828C00656DA4 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 613E46252A13828C00656DA4 /* HomePage.xib */; };
+		61ADA3C02A1478050078E3C2 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ADA3BE2A1478050078E3C2 /* LandingPageViewController.swift */; };
+		61ADA3C12A1478050078E3C2 /* LandingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61ADA3BF2A1478050078E3C2 /* LandingPageViewController.xib */; };
+		61ADA3C52A15FDFA0078E3C2 /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ADA3C42A15FDFA0078E3C2 /* OnBoardingSlide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		613E46212A13803600656DA4 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		613E46242A13828C00656DA4 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		613E46252A13828C00656DA4 /* HomePage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
+		61ADA3BE2A1478050078E3C2 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		61ADA3BF2A1478050078E3C2 /* LandingPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPageViewController.xib; sourceTree = "<group>"; };
+		61ADA3C42A15FDFA0078E3C2 /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				613E45F72A137D4200656DA4 /* Info.plist */,
+				61ADA3C62A15FE010078E3C2 /* Models */,
 				613E46282A13836700656DA4 /* Delegate */,
 				613E461F2A137F4500656DA4 /* Design */,
 				613E461E2A137F3100656DA4 /* ViewController */,
@@ -150,6 +157,7 @@
 		613E461E2A137F3100656DA4 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				61ADA3BE2A1478050078E3C2 /* LandingPageViewController.swift */,
 				613E45ED2A137D4000656DA4 /* ViewController.swift */,
 				613E46242A13828C00656DA4 /* HomePage.swift */,
 				613E46202A13803600656DA4 /* LoginViewController.swift */,
@@ -164,6 +172,7 @@
 				613E45F42A137D4200656DA4 /* LaunchScreen.storyboard */,
 				613E46252A13828C00656DA4 /* HomePage.xib */,
 				613E45EF2A137D4000656DA4 /* Main.storyboard */,
+				61ADA3BF2A1478050078E3C2 /* LandingPageViewController.xib */,
 			);
 			path = Design;
 			sourceTree = "<group>";
@@ -183,6 +192,14 @@
 				613E45F22A137D4200656DA4 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		61ADA3C62A15FE010078E3C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61ADA3C42A15FDFA0078E3C2 /* OnBoardingSlide.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +309,7 @@
 				613E46272A13828C00656DA4 /* HomePage.xib in Resources */,
 				613E46232A13803600656DA4 /* LoginViewController.xib in Resources */,
 				613E45F62A137D4200656DA4 /* LaunchScreen.storyboard in Resources */,
+				61ADA3C12A1478050078E3C2 /* LandingPageViewController.xib in Resources */,
 				613E45F32A137D4200656DA4 /* Assets.xcassets in Resources */,
 				613E45F12A137D4000656DA4 /* Main.storyboard in Resources */,
 			);
@@ -321,9 +339,11 @@
 				613E46222A13803600656DA4 /* LoginViewController.swift in Sources */,
 				613E45EE2A137D4000656DA4 /* ViewController.swift in Sources */,
 				613E461B2A137E0100656DA4 /* MainCoordinator.swift in Sources */,
+				61ADA3C02A1478050078E3C2 /* LandingPageViewController.swift in Sources */,
 				613E461D2A137E0E00656DA4 /* Coordinator.swift in Sources */,
 				613E45EA2A137D4000656DA4 /* AppDelegate.swift in Sources */,
 				613E46262A13828C00656DA4 /* HomePage.swift in Sources */,
+				61ADA3C52A15FDFA0078E3C2 /* OnBoardingSlide.swift in Sources */,
 				613E45EC2A137D4000656DA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

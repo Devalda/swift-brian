@@ -14,7 +14,7 @@ class MainCoordinator:Coordinator{
     
     func start() {
 
-        var vc : UIViewController & Coordinating = LoginViewController()
+        var vc : UIViewController & Coordinating = LandingPageViewController()
         vc.coordinator = self
         navigationController?.setViewControllers([vc], animated: false)
 

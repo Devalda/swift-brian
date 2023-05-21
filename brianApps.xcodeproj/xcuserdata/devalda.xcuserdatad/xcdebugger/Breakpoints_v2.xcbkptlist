@@ -3,4 +3,54 @@
    uuid = "A6770D37-5023-45AB-83AD-7C4C0CD5D8B8"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D3B8CA9-C464-47A7-83FA-1961139895F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "brianApps/ViewController/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "didPressLogin(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D3B8CA9-C464-47A7-83FA-1961139895F9 - 2c2e4f22698c0a4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in brianApps.LoginViewController.didPressLogin() -&gt; ()"
+                  moduleName = "brianApps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devalda/Documents/brianApps/brianApps/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "4D3B8CA9-C464-47A7-83FA-1961139895F9 - 4d180ed01c1fdb63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in brianApps.LoginViewController.didPressLogin(sender: Swift.AnyObject) -&gt; ()"
+                  moduleName = "brianApps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/devalda/Documents/brianApps/brianApps/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

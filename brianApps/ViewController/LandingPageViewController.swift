@@ -29,6 +29,9 @@ class LandingPageViewController: UIViewController ,Coordinating , UICollectionVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.masukButton.designLogButtonLand()
+        self.daftarButton.designRegButtonLand()
 
         let nibCell = UINib(nibName: carousellViewID, bundle: nil)
         uiCollectionView.register(nibCell, forCellWithReuseIdentifier: carousellViewID)
@@ -40,13 +43,9 @@ class LandingPageViewController: UIViewController ,Coordinating , UICollectionVi
         layoutCarousell.scrollDirection = .horizontal
         uiCollectionView.setCollectionViewLayout(layoutCarousell, animated: true)
 //
-        masukButton.layer.cornerRadius = 20
-        masukButton.layer.borderWidth = 1.5
-        masukButton.layer.borderColor = UIColor(red: 65.0/255.0, green: 159.0/255.0, blue: 249.0/255.0, alpha: 1.0).cgColor
+
 //
-        daftarButton.layer.cornerRadius = 20
-        daftarButton.layer.borderWidth = 1.5
-        daftarButton.layer.borderColor = UIColor(red: 65.0/255.0, green: 159.0/255.0, blue: 249.0/255.0, alpha: 1.0).cgColor
+
 
         // Do any additional setup after loading the view.
     }
@@ -90,6 +89,21 @@ class LandingPageViewController: UIViewController ,Coordinating , UICollectionVi
     }
 
 
+}
+
+extension UIButton{
+    
+    func designLogButtonLand(){
+        self.layer.cornerRadius = 20
+        self.layer.borderWidth = 1.5
+        self.layer.borderColor = UIColor(red: 65.0/255.0, green: 159.0/255.0, blue: 249.0/255.0, alpha: 1.0).cgColor
+    }
+    func designRegButtonLand(){
+        self.layer.cornerRadius = 20
+        self.layer.borderWidth = 1.5
+        self.layer.borderColor = UIColor(red: 65.0/255.0, green: 159.0/255.0, blue: 249.0/255.0, alpha: 1.0).cgColor
+    }
+    
 }
 
 

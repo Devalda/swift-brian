@@ -84,7 +84,7 @@
                         <action selector="didPressLoginWithSender:" destination="-1" eventType="touchUpInside" id="mZ0-2c-bdh"/>
                     </connections>
                 </button>
-                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xVR-Jm-C4W">
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" placeholder="+62" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xVR-Jm-C4W">
                     <rect key="frame" x="21" y="224" width="342" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

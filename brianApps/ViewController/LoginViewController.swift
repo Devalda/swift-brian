@@ -37,17 +37,12 @@ class LoginViewController: UIViewController,Coordinating {
         self.navigationItem.rightBarButtonItem = infoButton
         self.navigationController!.navigationBar.tintColor = .white
         
+        self.phoneField.addPadding()
+        self.phoneField.addBorder()
+        self.logButton.designLogButton()
+        
 //
-        phoneField.layer.cornerRadius = 5.0
-        phoneField.layer.borderWidth = 1
-        phoneField.layer.borderColor = UIColor(red: 196.0/255.0, green: 196.0/255.0, blue: 296.0/255.0, alpha: 1.0).cgColor
-        logButton.layer.cornerRadius = 20
-        logButton.layer.borderWidth = 1.5
-        logButton.layer.borderColor = UIColor(red: 65.0/255.0, green: 159.0/255.0, blue: 249.0/255.0, alpha: 1.0).cgColor
-        containerLogin.layer.cornerRadius = 25
-        containerLogin.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-
-
+        
     }
     
     @IBAction func onPhoneNumberChanged(_ sender: Any) {
@@ -122,4 +117,31 @@ class LoginViewController: UIViewController,Coordinating {
     }
 
 
+}
+
+extension UITextField  {
+    
+    func addPadding(){
+        let paddingView: UIView = UIView.init(frame: CGRect( x:0,y:0,width: 8,height: 0))
+        self.leftView = paddingView
+        self.leftViewMode = .always
+        self.rightView = paddingView
+        self.rightViewMode = .always
+    }
+    
+    func addBorder(){
+        self.layer.cornerRadius = 5.0
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor(red: 196.0/255.0, green: 196.0/255.0, blue: 296.0/255.0, alpha: 1.0).cgColor
+    }
+}
+
+extension UIButton{
+    
+    func designLogButton(){
+        self.layer.cornerRadius = 20
+        self.layer.borderWidth = 1.5
+        self.layer.borderColor = UIColor(red: 65.0/255.0, green: 159.0/255.0, blue: 249.0/255.0, alpha: 1.0).cgColor
+    }
+    
 }

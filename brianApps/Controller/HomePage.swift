@@ -17,6 +17,16 @@ class HomePage: UIViewController ,Coordinating{
       
     }
     
+    func getPostString(params:[String:Any]) -> String
+    {
+        var data = [String]()
+        for(key, value) in params
+        {
+            data.append(key + "=\(value)")
+        }
+        return data.map { String($0) }.joined(separator: "&")
+    }
+    
     private func getPostNasaData(){
         
         let apiNasaKey = "FqoBlYD3Q9aTMoVFzK0GPbtcwdtogmbYq9Q4EjdG"
@@ -77,43 +87,53 @@ class HomePage: UIViewController ,Coordinating{
         
         var request = URLRequest(url: UrlPostIsaku)
         request.httpMethod = "POST"
-        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
+        
+        //Tidak perlu pake header
+//        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+//        request.setValue("application/json", forHTTPHeaderField: "Accept")
 //        request.setValue( "Bearer \(token)", forHTTPHeaderField: "Authorization")===
-        request.httpBody = encodeBody
+//        request.httpBody = encodeBody
+        
+        //POST <> form-data
+        let postString = getPostString(params: body)
+        request.httpBody = postString.data(using: .utf8)
         
         let task = URLSession.shared.dataTask(with: request) { Data, URLResponse, Error in
             guard let data = Data, Error == nil else{
                 print("The Data is EMPTY!")
                 return
             }
-            print("DATA RESPONSE COLLECTED")
-            let decoder = JSONDecoder()
-            var Result: ResponseIsaku?
-            do{
-               var Result = try decoder.decode(ResponseIsaku.self,from: data)
-                print("DATA RESPONSE DECODED")
-            }
-            catch{
-                print("failed to decode JSON = \(error)")
-            }
-            
-            guard let json = Result else{
+            guard let httpRes = URLResponse as? HTTPURLResponse else {
+                print("error", Error ?? "Unknown error")
                 return
             }
             
-            print(json.tag)
-            print(json.success)
-            print(json.data)
-        
+            if httpRes.statusCode == 200 {
+                if let data = Data {
+                    print("RESPONSE DATA")
+                    print(String(data: data, encoding: String.Encoding.utf8))
+                    
+                    print("DATA RESPONSE COLLECTED")
+                    let decoder = JSONDecoder()
+                    do{
+                        var Result = try decoder.decode(ResponseIsaku.self,from: data)
+                        print("DATA RESPONSE DECODED")
+                        
+                        print(Result.tag)
+                        print(Result.success)
+                        print(Result.data)
+                    }
+                    catch{
+                        print("failed to decode JSON = \(error)")
+                    }
+                }
+            }
         }
         
     task.resume()
         
     }
     
-    
-
 }
 
 // ISAKU MODEL

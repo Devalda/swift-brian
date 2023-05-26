@@ -146,8 +146,7 @@ class HomePage: UIViewController ,Coordinating,UITableViewDelegate,UITableViewDa
     
     private func getPostIsakuData(){
         print("post isaku data")
-        
-        let token = "0cjrf2-MuvsXD4wDgFeRM3FvcZk6WHukAWn1FB_yyXeZS2Gcm6MsvW4N6reJUpv494UrTNrstwluvB0ekJ7Yy810pnrqrCjKy2aGyrF3c6rT2v42op7O-kg4Tqd_VQVwmVxbWaJZvNXdexxc2Fkfeet0Kx6nOIo_WzoQiGPQCeRyOAwGO0Is-G-nW-HrFcq5i0SHcQKAUedBkuB8in2AI4N7SXG382qsGV-cAfiGDX1geyVOQUBr8aQsfEWWDs95EvydCC-E4C2Y5191x_eJcRmUUu6uGQP-KlAuuh-5QYB8fo2aXH-1vNm-pqVMXZEa"
+
         let body :[String:String] = [
             "json" :  "{\"phone_number\":\"088884444222\",\"app_version\":\"324\",\"os_version\":\"25\",\"os_type\":\"aos\",\"device_id\":\"aosxxxx\",\"imei\":\"123456\",\"session_id\":\"738112729\",\"latitude\":\"-8.539087\",\"longitude\":\"115.1399009\",\"bahasa\":\"1\"}",
             "tag" : "get_daftar_pekerjaan_v2"
@@ -199,7 +198,6 @@ class HomePage: UIViewController ,Coordinating,UITableViewDelegate,UITableViewDa
                                                 
                         print(Result.tag)
                         print(Result.success)
-                        print(Result.data)
                         self.dataSource = Result.data
                         
                     }

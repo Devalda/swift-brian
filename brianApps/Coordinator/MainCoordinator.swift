@@ -14,7 +14,7 @@ class MainCoordinator:Coordinator{
     
     func start() {
 
-        var vc : UIViewController & Coordinating = HomePage()
+        var vc : UIViewController & Coordinating = RegisterPageViewController()
         vc.coordinator = self
         navigationController?.setViewControllers([vc], animated: false)
 

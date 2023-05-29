@@ -62,6 +62,9 @@
                                     </fragment>
                                 </attributedString>
                             </buttonConfiguration>
+                            <connections>
+                                <action selector="registerPageRouting:" destination="-1" eventType="touchUpInside" id="hYs-fr-KGN"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>

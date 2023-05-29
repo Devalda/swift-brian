@@ -68,6 +68,13 @@ class LoginViewController: UIViewController,Coordinating {
     @objc func showInfo(sender :UIBarButtonItem){
         
     }
+    
+    @IBAction func registerPageRouting(_ sender: Any) {
+        
+        let vc : UIViewController & Coordinating = RegisterPageViewController()
+        self.navigationController?.setViewControllers([vc], animated: true)
+    }
+    
 
     @IBAction func didPressLogin(sender: AnyObject) {
         

@@ -176,7 +176,6 @@
 				613E45ED2A137D4000656DA4 /* ViewController.swift */,
 				613E46242A13828C00656DA4 /* HomePage.swift */,
 				61EC6E322A20698000208224 /* RegisterPageViewController.swift */,
-				61EC6E332A20698000208224 /* RegisterPageViewController.xib */,
 				613E46202A13803600656DA4 /* LoginViewController.swift */,
 			);
 			path = Controller;
@@ -191,6 +190,7 @@
 				613E45EF2A137D4000656DA4 /* Main.storyboard */,
 				61ADA3BF2A1478050078E3C2 /* LandingPageViewController.xib */,
 				611F20C52A1A2FB600C743CF /* LandingPageCollectionViewCell.xib */,
+				61EC6E332A20698000208224 /* RegisterPageViewController.xib */,
 			);
 			path = Model;
 			sourceTree = "<group>";

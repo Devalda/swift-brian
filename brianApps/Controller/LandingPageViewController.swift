@@ -85,6 +85,8 @@ class LandingPageViewController: UIViewController ,Coordinating , UICollectionVi
         
     }
     @IBAction func RegisterAction(_ sender: Any) {
+        let vc : UIViewController & Coordinating = RegisterPageViewController()
+        self.navigationController?.setViewControllers([vc], animated: true)
         
     }
 

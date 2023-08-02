@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6A9C7E78-CFC7-4DCB-BE59-D97E25882C9D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF955747-7D80-472A-962B-5C23FE3AED8E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = " brianAppsTests/_brianAppsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C735917-5313-4EE2-9424-9823EB0D80A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestingManual/unitTesting01.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E67E729B-515D-4659-80D4-7675070A1697"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestingManual/unitTesting01.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unitTesting01"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E67E729B-515D-4659-80D4-7675070A1697 - b64029971d39f042"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testingBrian.unitTesting01.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; testingBrian.unitTesting01"
+                  moduleName = "unitTesting01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briandevalda/Desktop/swift-brian/UnitTestingManual/unitTesting01.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E67E729B-515D-4659-80D4-7675070A1697 - 3a2c4bbbbc892adf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testingBrian.unitTesting01.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; testingBrian.unitTesting01"
+                  moduleName = "unitTesting01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briandevalda/Desktop/swift-brian/UnitTestingManual/unitTesting01.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "E67E729B-515D-4659-80D4-7675070A1697 - a0768ce34d58fc3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testingBrian.unitTesting01.__allocating_init(selector: ObjectiveC.Selector) -&gt; testingBrian.unitTesting01"
+                  moduleName = "unitTesting01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briandevalda/Desktop/swift-brian/UnitTestingManual/unitTesting01.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "E67E729B-515D-4659-80D4-7675070A1697 - cecb03699083bdfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testingBrian.unitTesting01.init(selector: ObjectiveC.Selector) -&gt; testingBrian.unitTesting01"
+                  moduleName = "unitTesting01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briandevalda/Desktop/swift-brian/UnitTestingManual/unitTesting01.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "E67E729B-515D-4659-80D4-7675070A1697 - 957407d59df25a54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testingBrian.unitTesting01.__allocating_init() -&gt; testingBrian.unitTesting01"
+                  moduleName = "unitTesting01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briandevalda/Desktop/swift-brian/UnitTestingManual/unitTesting01.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "E67E729B-515D-4659-80D4-7675070A1697 - 2ec96ee9fcef03c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testingBrian.unitTesting01.init() -&gt; testingBrian.unitTesting01"
+                  moduleName = "unitTesting01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briandevalda/Desktop/swift-brian/UnitTestingManual/unitTesting01.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "E67E729B-515D-4659-80D4-7675070A1697 - 6d3d58a8d0c2e431"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testingBrian.unitTesting01.__deallocating_deinit"
+                  moduleName = "unitTesting01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/briandevalda/Desktop/swift-brian/UnitTestingManual/unitTesting01.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

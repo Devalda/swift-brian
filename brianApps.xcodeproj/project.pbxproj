@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		611F20BF2A1A0D0000C743CF /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 611F20BE2A1A0D0000C743CF /* PhoneNumberKit */; };
+		112330FD2A70F87E009C36B7 /* performanceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112330FC2A70F87E009C36B7 /* performanceTest.swift */; };
+		117662392A5DD3830082DEB0 /* unitTesting01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117662382A5DD3830082DEB0 /* unitTesting01.swift */; };
 		611F20C62A1A2FB700C743CF /* LandingPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F20C42A1A2FB600C743CF /* LandingPageCollectionViewCell.swift */; };
 		611F20C72A1A2FB700C743CF /* LandingPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 611F20C52A1A2FB600C743CF /* LandingPageCollectionViewCell.xib */; };
 		613E45EA2A137D4000656DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E45E92A137D4000656DA4 /* AppDelegate.swift */; };
@@ -16,9 +17,6 @@
 		613E45F12A137D4000656DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613E45EF2A137D4000656DA4 /* Main.storyboard */; };
 		613E45F32A137D4200656DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613E45F22A137D4200656DA4 /* Assets.xcassets */; };
 		613E45F62A137D4200656DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613E45F42A137D4200656DA4 /* LaunchScreen.storyboard */; };
-		613E46012A137D4200656DA4 /* brianAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E46002A137D4200656DA4 /* brianAppsTests.swift */; };
-		613E460B2A137D4200656DA4 /* brianAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E460A2A137D4200656DA4 /* brianAppsUITests.swift */; };
-		613E460D2A137D4200656DA4 /* brianAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E460C2A137D4200656DA4 /* brianAppsUITestsLaunchTests.swift */; };
 		613E461B2A137E0100656DA4 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E461A2A137E0100656DA4 /* MainCoordinator.swift */; };
 		613E461D2A137E0E00656DA4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E461C2A137E0E00656DA4 /* Coordinator.swift */; };
 		613E46222A13803600656DA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E46202A13803600656DA4 /* LoginViewController.swift */; };
@@ -35,14 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		613E45FD2A137D4200656DA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 613E45DE2A137D3F00656DA4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 613E45E52A137D3F00656DA4;
-			remoteInfo = brianApps;
-		};
-		613E46072A137D4200656DA4 /* PBXContainerItemProxy */ = {
+		1176623A2A5DD3830082DEB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 613E45DE2A137D3F00656DA4 /* Project object */;
 			proxyType = 1;
@@ -52,9 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E88AA1332EDB2258ABAF31 /* Pods-brianAppsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianAppsTests.debug.xcconfig"; path = "Target Support Files/Pods-brianAppsTests/Pods-brianAppsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		112330FC2A70F87E009C36B7 /* performanceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = performanceTest.swift; sourceTree = "<group>"; };
+		117662362A5DD3830082DEB0 /* unitTesting01.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unitTesting01.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		117662382A5DD3830082DEB0 /* unitTesting01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unitTesting01.swift; sourceTree = "<group>"; };
+		319C5D482B5DB2A49BD4DE77 /* Pods-brianApps-brianAppsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianApps-brianAppsUITests.debug.xcconfig"; path = "Target Support Files/Pods-brianApps-brianAppsUITests/Pods-brianApps-brianAppsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B869A3AA19DCD94C76ED88E /* Pods-brianApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianApps.debug.xcconfig"; path = "Target Support Files/Pods-brianApps/Pods-brianApps.debug.xcconfig"; sourceTree = "<group>"; };
+		50BDA31C019F700B85BB2A2F /* Pods_brianApps_brianAppsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brianApps_brianAppsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		611F20C42A1A2FB600C743CF /* LandingPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageCollectionViewCell.swift; sourceTree = "<group>"; };
 		611F20C52A1A2FB600C743CF /* LandingPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPageCollectionViewCell.xib; sourceTree = "<group>"; };
-		613E45E62A137D4000656DA4 /* brianApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brianApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		613E45E62A137D4000656DA4 /*  brianApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " brianApps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		613E45E92A137D4000656DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		613E45EB2A137D4000656DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		613E45ED2A137D4000656DA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,11 +60,6 @@
 		613E45F22A137D4200656DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613E45F52A137D4200656DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613E45F72A137D4200656DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		613E45FC2A137D4200656DA4 /* brianAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brianAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		613E46002A137D4200656DA4 /* brianAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brianAppsTests.swift; sourceTree = "<group>"; };
-		613E46062A137D4200656DA4 /* brianAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brianAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		613E460A2A137D4200656DA4 /* brianAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brianAppsUITests.swift; sourceTree = "<group>"; };
-		613E460C2A137D4200656DA4 /* brianAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brianAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		613E461A2A137E0100656DA4 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		613E461C2A137E0E00656DA4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		613E46202A13803600656DA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -79,51 +72,71 @@
 		61EC6E322A20698000208224 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		61EC6E332A20698000208224 /* RegisterPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPageViewController.xib; sourceTree = "<group>"; };
 		61EC6E392A20B22F00208224 /* 6bf16487-f4ee-4af1-a435-406dc158c4ce.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6bf16487-f4ee-4af1-a435-406dc158c4ce.json"; sourceTree = "<group>"; };
+		8235399095D94811AA2B5879 /* Pods-brianAppsTestsing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianAppsTestsing.release.xcconfig"; path = "Target Support Files/Pods-brianAppsTestsing/Pods-brianAppsTestsing.release.xcconfig"; sourceTree = "<group>"; };
+		84037F575F548B18A5BED2D9 /* Pods_brianApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brianApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8734BB76BE117547DF141C /* Pods-brianApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianApps.release.xcconfig"; path = "Target Support Files/Pods-brianApps/Pods-brianApps.release.xcconfig"; sourceTree = "<group>"; };
+		9DD1CB9A3626F55462554AFE /* Pods-brianAppsTestsing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianAppsTestsing.debug.xcconfig"; path = "Target Support Files/Pods-brianAppsTestsing/Pods-brianAppsTestsing.debug.xcconfig"; sourceTree = "<group>"; };
+		B5215162A59EFA64F5E795BE /* Pods_brianAppsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brianAppsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C900D7AAE9E776DC8D999620 /* Pods-brianApps-brianAppsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianApps-brianAppsUITests.release.xcconfig"; path = "Target Support Files/Pods-brianApps-brianAppsUITests/Pods-brianApps-brianAppsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB2DE44BCE756F8ABF4D288F /* Pods-brianAppsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brianAppsTests.release.xcconfig"; path = "Target Support Files/Pods-brianAppsTests/Pods-brianAppsTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCF3C890AA07DC8312B7A7E5 /* Pods_brianAppsTestsing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brianAppsTestsing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		117662332A5DD3830082DEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		613E45E32A137D3F00656DA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611F20BF2A1A0D0000C743CF /* PhoneNumberKit in Frameworks */,
 				61EC6E382A20893600208224 /* Lottie in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		613E45F92A137D4200656DA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		613E46032A137D4200656DA4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117662372A5DD3830082DEB0 /* UnitTestingManual */ = {
+			isa = PBXGroup;
+			children = (
+				117662382A5DD3830082DEB0 /* unitTesting01.swift */,
+				112330FC2A70F87E009C36B7 /* performanceTest.swift */,
+			);
+			path = UnitTestingManual;
+			sourceTree = "<group>";
+		};
+		45C50CC09EA542739B6618EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84037F575F548B18A5BED2D9 /* Pods_brianApps.framework */,
+				50BDA31C019F700B85BB2A2F /* Pods_brianApps_brianAppsUITests.framework */,
+				B5215162A59EFA64F5E795BE /* Pods_brianAppsTests.framework */,
+				FCF3C890AA07DC8312B7A7E5 /* Pods_brianAppsTestsing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		613E45DD2A137D3F00656DA4 = {
 			isa = PBXGroup;
 			children = (
+				117662372A5DD3830082DEB0 /* UnitTestingManual */,
 				613E45E82A137D4000656DA4 /* brianApps */,
-				613E45FF2A137D4200656DA4 /* brianAppsTests */,
-				613E46092A137D4200656DA4 /* brianAppsUITests */,
 				613E45E72A137D4000656DA4 /* Products */,
+				9A9AECB5FE543EA32A2D6BB2 /* Pods */,
+				45C50CC09EA542739B6618EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		613E45E72A137D4000656DA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				613E45E62A137D4000656DA4 /* brianApps.app */,
-				613E45FC2A137D4200656DA4 /* brianAppsTests.xctest */,
-				613E46062A137D4200656DA4 /* brianAppsUITests.xctest */,
+				613E45E62A137D4000656DA4 /*  brianApps.app */,
+				117662362A5DD3830082DEB0 /* unitTesting01.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,23 +155,6 @@
 			path = brianApps;
 			sourceTree = "<group>";
 		};
-		613E45FF2A137D4200656DA4 /* brianAppsTests */ = {
-			isa = PBXGroup;
-			children = (
-				613E46002A137D4200656DA4 /* brianAppsTests.swift */,
-			);
-			path = brianAppsTests;
-			sourceTree = "<group>";
-		};
-		613E46092A137D4200656DA4 /* brianAppsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				613E460A2A137D4200656DA4 /* brianAppsUITests.swift */,
-				613E460C2A137D4200656DA4 /* brianAppsUITestsLaunchTests.swift */,
-			);
-			path = brianAppsUITests;
-			sourceTree = "<group>";
-		};
 		613E46192A137DEA00656DA4 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,12 +167,12 @@
 		613E461E2A137F3100656DA4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				613E46202A13803600656DA4 /* LoginViewController.swift */,
 				61ADA3BE2A1478050078E3C2 /* LandingPageViewController.swift */,
 				611F20C42A1A2FB600C743CF /* LandingPageCollectionViewCell.swift */,
 				613E45ED2A137D4000656DA4 /* ViewController.swift */,
 				613E46242A13828C00656DA4 /* HomePage.swift */,
 				61EC6E322A20698000208224 /* RegisterPageViewController.swift */,
-				613E46202A13803600656DA4 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -221,13 +217,47 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		9A9AECB5FE543EA32A2D6BB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B869A3AA19DCD94C76ED88E /* Pods-brianApps.debug.xcconfig */,
+				8D8734BB76BE117547DF141C /* Pods-brianApps.release.xcconfig */,
+				319C5D482B5DB2A49BD4DE77 /* Pods-brianApps-brianAppsUITests.debug.xcconfig */,
+				C900D7AAE9E776DC8D999620 /* Pods-brianApps-brianAppsUITests.release.xcconfig */,
+				01E88AA1332EDB2258ABAF31 /* Pods-brianAppsTests.debug.xcconfig */,
+				EB2DE44BCE756F8ABF4D288F /* Pods-brianAppsTests.release.xcconfig */,
+				9DD1CB9A3626F55462554AFE /* Pods-brianAppsTestsing.debug.xcconfig */,
+				8235399095D94811AA2B5879 /* Pods-brianAppsTestsing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		117662352A5DD3830082DEB0 /* unitTesting01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1176623C2A5DD3840082DEB0 /* Build configuration list for PBXNativeTarget "unitTesting01" */;
+			buildPhases = (
+				117662322A5DD3830082DEB0 /* Sources */,
+				117662332A5DD3830082DEB0 /* Frameworks */,
+				117662342A5DD3830082DEB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1176623B2A5DD3830082DEB0 /* PBXTargetDependency */,
+			);
+			name = unitTesting01;
+			productName = unitTesting01;
+			productReference = 117662362A5DD3830082DEB0 /* unitTesting01.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		613E45E52A137D3F00656DA4 /* brianApps */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 613E46102A137D4200656DA4 /* Build configuration list for PBXNativeTarget "brianApps" */;
 			buildPhases = (
+				5DF309147667DB098D774800 /* [CP] Check Pods Manifest.lock */,
 				613E45E22A137D3F00656DA4 /* Sources */,
 				613E45E32A137D3F00656DA4 /* Frameworks */,
 				613E45E42A137D3F00656DA4 /* Resources */,
@@ -238,48 +268,11 @@
 			);
 			name = brianApps;
 			packageProductDependencies = (
-				611F20BE2A1A0D0000C743CF /* PhoneNumberKit */,
 				61EC6E372A20893600208224 /* Lottie */,
 			);
 			productName = brianApps;
-			productReference = 613E45E62A137D4000656DA4 /* brianApps.app */;
+			productReference = 613E45E62A137D4000656DA4 /*  brianApps.app */;
 			productType = "com.apple.product-type.application";
-		};
-		613E45FB2A137D4200656DA4 /* brianAppsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 613E46132A137D4200656DA4 /* Build configuration list for PBXNativeTarget "brianAppsTests" */;
-			buildPhases = (
-				613E45F82A137D4200656DA4 /* Sources */,
-				613E45F92A137D4200656DA4 /* Frameworks */,
-				613E45FA2A137D4200656DA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				613E45FE2A137D4200656DA4 /* PBXTargetDependency */,
-			);
-			name = brianAppsTests;
-			productName = brianAppsTests;
-			productReference = 613E45FC2A137D4200656DA4 /* brianAppsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		613E46052A137D4200656DA4 /* brianAppsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 613E46162A137D4200656DA4 /* Build configuration list for PBXNativeTarget "brianAppsUITests" */;
-			buildPhases = (
-				613E46022A137D4200656DA4 /* Sources */,
-				613E46032A137D4200656DA4 /* Frameworks */,
-				613E46042A137D4200656DA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				613E46082A137D4200656DA4 /* PBXTargetDependency */,
-			);
-			name = brianAppsUITests;
-			productName = brianAppsUITests;
-			productReference = 613E46062A137D4200656DA4 /* brianAppsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -291,16 +284,12 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					117662352A5DD3830082DEB0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 613E45E52A137D3F00656DA4;
+					};
 					613E45E52A137D3F00656DA4 = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					613E45FB2A137D4200656DA4 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 613E45E52A137D3F00656DA4;
-					};
-					613E46052A137D4200656DA4 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 613E45E52A137D3F00656DA4;
 					};
 				};
 			};
@@ -322,13 +311,19 @@
 			projectRoot = "";
 			targets = (
 				613E45E52A137D3F00656DA4 /* brianApps */,
-				613E45FB2A137D4200656DA4 /* brianAppsTests */,
-				613E46052A137D4200656DA4 /* brianAppsUITests */,
+				117662352A5DD3830082DEB0 /* unitTesting01 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		117662342A5DD3830082DEB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		613E45E42A137D3F00656DA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,23 +340,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		613E45FA2A137D4200656DA4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		613E46042A137D4200656DA4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DF309147667DB098D774800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brianApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		117662322A5DD3830082DEB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112330FD2A70F87E009C36B7 /* performanceTest.swift in Sources */,
+				117662392A5DD3830082DEB0 /* unitTesting01.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		613E45E22A137D3F00656DA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,35 +395,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		613E45F82A137D4200656DA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				613E46012A137D4200656DA4 /* brianAppsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		613E46022A137D4200656DA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				613E460B2A137D4200656DA4 /* brianAppsUITests.swift in Sources */,
-				613E460D2A137D4200656DA4 /* brianAppsUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		613E45FE2A137D4200656DA4 /* PBXTargetDependency */ = {
+		1176623B2A5DD3830082DEB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 613E45E52A137D3F00656DA4 /* brianApps */;
-			targetProxy = 613E45FD2A137D4200656DA4 /* PBXContainerItemProxy */;
-		};
-		613E46082A137D4200656DA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 613E45E52A137D3F00656DA4 /* brianApps */;
-			targetProxy = 613E46072A137D4200656DA4 /* PBXContainerItemProxy */;
+			targetProxy = 1176623A2A5DD3830082DEB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,6 +425,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1176623D2A5DD3840082DEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73TN4PDK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devaldatest.unitTesting01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ brianApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ brianApps";
+			};
+			name = Debug;
+		};
+		1176623E2A5DD3840082DEB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73TN4PDK84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = devaldatest.unitTesting01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ brianApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ brianApps";
+			};
+			name = Release;
+		};
 		613E460E2A137D4200656DA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,6 +497,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -483,9 +516,13 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = testingBrian;
+				PRODUCT_NAME = brianApps;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -526,8 +563,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -537,8 +577,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_MODULE_NAME = testingBrian;
+				PRODUCT_NAME = brianApps;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -548,26 +592,35 @@
 		};
 		613E46112A137D4200656DA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B869A3AA19DCD94C76ED88E /* Pods-brianApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_MODULES_DISABLE_PRIVATE_WARNING = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73TN4PDK84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = brianApps/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
+				MODULE_NAME = brianAPPS;
 				PRODUCT_BUNDLE_IDENTIFIER = devalda.brianApps;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = brianApps;
+				PRODUCT_NAME = " $(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -576,111 +629,53 @@
 		};
 		613E46122A137D4200656DA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8734BB76BE117547DF141C /* Pods-brianApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_MODULES_DISABLE_PRIVATE_WARNING = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 73TN4PDK84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = brianApps/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
+				MODULE_NAME = brianAPPS;
 				PRODUCT_BUNDLE_IDENTIFIER = devalda.brianApps;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = brianApps;
+				PRODUCT_NAME = " $(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		613E46142A137D4200656DA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73TN4PDK84;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = devalda.brianAppsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brianApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brianApps";
-			};
-			name = Debug;
-		};
-		613E46152A137D4200656DA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73TN4PDK84;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = devalda.brianAppsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brianApps.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brianApps";
-			};
-			name = Release;
-		};
-		613E46172A137D4200656DA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73TN4PDK84;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = devalda.brianAppsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = brianApps;
-			};
-			name = Debug;
-		};
-		613E46182A137D4200656DA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 73TN4PDK84;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = devalda.brianAppsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = brianApps;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1176623C2A5DD3840082DEB0 /* Build configuration list for PBXNativeTarget "unitTesting01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1176623D2A5DD3840082DEB0 /* Debug */,
+				1176623E2A5DD3840082DEB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		613E45E12A137D3F00656DA4 /* Build configuration list for PBXProject "brianApps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -695,24 +690,6 @@
 			buildConfigurations = (
 				613E46112A137D4200656DA4 /* Debug */,
 				613E46122A137D4200656DA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		613E46132A137D4200656DA4 /* Build configuration list for PBXNativeTarget "brianAppsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				613E46142A137D4200656DA4 /* Debug */,
-				613E46152A137D4200656DA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		613E46162A137D4200656DA4 /* Build configuration list for PBXNativeTarget "brianAppsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				613E46172A137D4200656DA4 /* Debug */,
-				613E46182A137D4200656DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,11 +716,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		611F20BE2A1A0D0000C743CF /* PhoneNumberKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 611F20BD2A1A0D0000C743CF /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
-			productName = PhoneNumberKit;
-		};
 		61EC6E372A20893600208224 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 61EC6E362A20893600208224 /* XCRemoteSwiftPackageReference "lottie-ios" */;
